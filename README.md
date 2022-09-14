@@ -44,7 +44,7 @@ Create a chat room by sending a POST request.
 2. Specify the `AppKey`, `account`(`accid`) , `token` and `roomID` to the class member in `EliteChatroomSample.cs`.
 3. Open Unity Hub and import the sample directory. Open the sample with unity editor.
 4. Click `Import package`=>`Custom Package...` menu，import `elite_unity_sdk.unitypackage`.
-5. Open `EliteChatroomScene`, Click the Play button and run the sample app. Click SDKInit to initialize the SDK and log in to the system using your IM account. Create a chat room with a specific ID and join the chat room. Then, you can send text messages in the chat room.
+5. Open `EliteChatroomScene`, Click the Play button and run the sample app. 
 
 ### Note
 The sdk is only support Arm64 in android platform

@@ -41,7 +41,7 @@ _Other Languages: [English](README.md)_
 2. 将`App Key`、账号（`accid`）、`token`、`roomID`填到`EliteChatroomSample.cs`文件的类成员中
 3. 打开unity hub, 导入sample目录，用editer打开sample
 4. 点击`Import package`=>`Custom Package...`, 导入`elite_unity_sdk.unitypackage`
-5. 打开`EliteChatroomScene`，点击Play按钮，即可运行本sample。点击SDKInit按钮初始化sdk环境后，即可填入自己的IM账号，登录IM;然后填入聊天室ID,进入聊天室。成功后即向聊天室中发送文本消息了。
+5. 打开`EliteChatroomScene`，点击Play按钮，即可运行本sample。
 
 ### 注意
 安卓平台暂时仅支持arm64架构
