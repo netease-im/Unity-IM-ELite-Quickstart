@@ -47,4 +47,4 @@ Create a chat room by sending a POST request.
 5. Open `EliteChatroomScene`, Click the Play button and run the sample app. Click SDKInit to initialize the SDK and log in to the system using your IM account. Create a chat room with a specific ID and join the chat room. Then, you can send text messages in the chat room.
 
 ### Note
-The sdk is only support Arm64 in android platform
+The SDK is only supported `Arm64` in `Android` platform
