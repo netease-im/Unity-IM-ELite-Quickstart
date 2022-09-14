@@ -1,12 +1,7 @@
 ## 简介
 _Other Languages: [English](README.md)_
 
-本开源示例项目演示了不同场景下，elite sdk的集成过程。本sample提供四个unity scene:
-
->* 点对点消息场景, 位于sample\Assets\Scenes\P2P目录，用以展示基本的点对点消息的接收、发送。
->* 普通聊天室场景,位于sample\Assets\Scenes\Charoom目录，用以展示基本的聊天室消息的接收、发送。
->* 聊天室定向消息场景,位于sample\Assets\Scenes\CharoomTag目录，用以展示基本的聊天室*定向*消息的接收、发送。
->* 聊天室范围消息场景,位于sample\Assets\Scenes\CharoomLocation目录，用以展示基本的聊天室*范围*消息的接收、发送。
+本开源示例项目演示了不同场景下，`Elite SDK`的集成过程。
 
 ## 目录结构
 ```
@@ -17,10 +12,10 @@ _Other Languages: [English](README.md)_
 │  │  ├─iOS                     // iOS平台库文件
 │  │  └─x86_64                  // win平台库文件
 │  ├─Scenes                     // 场景文件夹，放置各场景的 .unity 文件以及对应的 .cs文件
-│  │  ├─Chatroom                // 普通聊天室场景
-│  │  ├─ChatroomLocation        // 聊天室范围消息场景
-│  │  ├─ChatroomTag             // 聊天室定向消息场景
-│  │  └─P2P                     // 点对点消息场景
+│  │  ├─Chatroom                // 普通聊天室场景，用以展示基本的聊天室消息的接收、发送。
+│  │  ├─ChatroomLocation        // 范围消息场景，用以展示基本的聊天室范围消息的接收、发送。
+│  │  ├─ChatroomTag             // 定向消息场景，用以展示基本的聊天室定向消息的接收、发送。
+│  │  └─P2P                     // 点对点消息场景，用以展示基本的点对点消息的接收、发送。
 │  └─Scripts
 ├─Packages
 └─ProjectSettings

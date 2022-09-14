@@ -1,12 +1,7 @@
 ## Overview
 _Other Languages: [简体中文](README_zh_CN.md)_
 
-The sample project allows you to integrate Elite SDK for a variety of Unity scenes. Four Unity scenes are available in the sample project:
-
->* Private messaging (P2P) in the sample\Assets\Scenes\P2P folder, used for basic end-to-end messaging.
->* Generic chat room in the sample\Assets\Scenes\Charoom folder, used for basic messaging in chat rooms.
->* Directional messaging in chat rooms in the sample\Assets\Scenes\CharoomTag folder, used for sending *directional* messages in chat rooms.
->* Location-specific messaging in chat rooms in the sample\Assets\Scenes\CharoomLocation folder, used for basic messaging for *specific locations* in chat rooms.
+The sample project allows you to integrate `Elite SDK` for a variety of Unity scenes. 
 
 ## Folder structure
 ```
@@ -17,10 +12,10 @@ The sample project allows you to integrate Elite SDK for a variety of Unity scen
 │  │  ├─iOS                     // libraries for iOS
 │  │  └─x86_64                  // libraries for Windows
 │  ├─Scenes                     // Scene folder that contains files for scenes with .unity and .cs extensions
-│  │  ├─Chatroom                // Generic chat room
-│  │  ├─ChatroomLocation        // Chat room with location-specific messaging
-│  │  ├─ChatroomTag             // Chat room with directional messaging
-│  │  └─P2P                     // P2P messaging
+│  │  ├─Chatroom                // Generic chat room, used for basic messaging in chat rooms.
+│  │  ├─ChatroomLocation        // Location-specific messaging, used for basic messaging for specific locations in chat rooms.
+│  │  ├─ChatroomTag             // Directional messaging, used for sending directional messages in chat rooms.
+│  │  └─P2P                     // P2P messaging, used for basic end-to-end messaging.
 │  └─Scripts
 ├─Packages
 └─ProjectSettings
