@@ -47,4 +47,4 @@ Create a chat room by sending a POST request.
 5. Open `EliteChatroomScene`, Click the Play button and run the sample app. 
 
 ### Note
-The sdk is only support Arm64 in android platform
+The SDK is only supported `Arm64` in `Android` platform
