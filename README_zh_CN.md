@@ -9,6 +9,7 @@ _Other Languages: [English](README.md)_
 >* 聊天室范围消息场景,位于sample\Assets\Scenes\CharoomLocation目录，用以展示基本的聊天室*范围*消息的接收、发送。
 
 ## 目录结构
+```
 ├─Assets
 │  ├─Editor                     // 编辑器设置目录
 │  ├─Plugins                    // 插件文件夹，放置个平台app运行时所需的库文件等
@@ -23,7 +24,7 @@ _Other Languages: [English](README.md)_
 │  └─Scripts
 ├─Packages
 └─ProjectSettings
-
+```
 ## 运行示例项目
 
 ### 开发环境要求

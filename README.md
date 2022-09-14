@@ -9,6 +9,7 @@ The sample project allows you to integrate Elite SDK for a variety of Unity scen
 >* Location-specific messaging in chat rooms in the sample\Assets\Scenes\CharoomLocation folder, used for basic messaging for *specific locations* in chat rooms.
 
 ## Folder structure
+```
 ├─Assets
 │  ├─Editor                     // Editor settings
 │  ├─Plugins                    // Plugins folder that contains libraries required for supported platforms
@@ -23,6 +24,7 @@ The sample project allows you to integrate Elite SDK for a variety of Unity scen
 │  └─Scripts
 ├─Packages
 └─ProjectSettings
+```
 
 ## Run the demo project
 
