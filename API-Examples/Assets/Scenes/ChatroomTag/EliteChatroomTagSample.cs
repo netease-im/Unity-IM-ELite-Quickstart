@@ -61,7 +61,7 @@
  *
  *
  * 本文件实现了一个简单的Sample Code,实现了聊天室的主要功能，
- * 开发者可以使用本sample实现聊天室的登录、登出、发送聊天室定向消息等操作
+ * 开发者可以使用本sample实现聊天室的登录、登出、发送聊天室tag消息等操作
  * 
  * ===================================第一步：初始化elite===================================
  * 点击界面上的SDKInit按钮即可触发elite的初始化，该过程同时会创建nimClient以及nimChatroomClient并初始化它们。
@@ -75,11 +75,11 @@
  * UI上填写想要登陆的聊天室ID，然后点击EnterChatroom按钮即可进入聊天室，请确保您已创建了了自己的聊天室
  * 创建聊天室步骤请见上方“前置准备工作”
  * 
- * ===============================第四步：发送聊天室定向消息================================
+ * ===============================第四步：发送聊天室tag消息================================
  * 输入想要发送的消息内容，并输入本条消息的tag，点击SendMessage按钮即可将消息发送到聊天室，
  * 聊天室内其他成员能否接收到本条消息，取决于其他成员进入聊天室时设置tag是否与本消息的tag相同。
  * 
- * 定向消息详细规则：
+ * tag消息详细规则：
  * 假设用户A在加入聊天室时，指定自己的tag为tagA; 
  * 用户B加入聊天室时，设置的自己的tag为tabB; 
  * 用户C设置了自己的tag为tagA(与用户A同组);
@@ -90,7 +90,7 @@
  * 3，用户A发送了一条消息，该消息带有tagB,则本条消息能被用户BD收到
  * 4，用户D发送了一条不带tag的消息，该消息能被所有人收到
  * 
- * 关于定向消息的其他详细规则，请见：https://doc.yunxin.163.com/messaging/docs/TMxOTI0MDA?platform=android
+ * 关于tag消息的其他详细规则，请见：https://doc.yunxin.163.com/messaging/docs/TMxOTI0MDA?platform=android
  */
 
 using System;
@@ -289,7 +289,7 @@ public class EliteChatroomTagSample : MonoBehaviour
             enterParam.nickname = accID;
             enterParam.token = arg.token;
 
-            //自己的标签，用于接受定向消息。SDK支持设置多个tag,此处从简，只设一个
+            //自己的标签，用于接受tag消息。SDK支持设置多个tag,此处从简，只设一个
             if (!string.IsNullOrEmpty(txtSelfTag.text))
             {
                 enterParam.tags = new List<string> { txtSelfTag.text };
